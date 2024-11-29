@@ -4,7 +4,7 @@ on:
    -master
 jobs:
  builds:
-  runs-on:
+  runs-on:windows-latest
    
   steps:
     -name:'Action Location'
