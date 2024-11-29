@@ -1,1 +1,11 @@
-
+on:
+ push:
+  braches:
+   -master
+jobs:
+ builds:
+  runs-on:
+   
+  steps:
+    -name:'Action Location'
+     run:pwd
