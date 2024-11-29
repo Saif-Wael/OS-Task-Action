@@ -6,6 +6,6 @@ jobs:
  builds:
   runs-on:windows-latest
    
-  steps:
+   steps:
     -name:'Action Location'
      run:pwd
