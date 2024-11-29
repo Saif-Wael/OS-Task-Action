@@ -1,11 +1,11 @@
 on:
- push:
-  braches:
-   -master
+  push:
+    branches:
+      - master
+
 jobs:
- builds:
-  runs-on:windows-latest
-   
-   steps:
-    -name:'Action Location'
-     run:pwd
+  builds:
+    runs-on: windows-latest
+    steps:
+      - name: 'Action Location'
+        run: pwd
